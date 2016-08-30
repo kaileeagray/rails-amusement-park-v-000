@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-  skip_before_action :authenticate_user!, only: [:home]
+  skip_before_action :require_logged_in, only: [:home]
 
   def home
   end

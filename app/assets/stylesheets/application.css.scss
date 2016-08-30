@@ -23,3 +23,35 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
+div {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+input, button {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.pic, .info {
+    padding: 20px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    vertical-align: middle;
+    margin: 10px;
+}
+
+.center {
+    text-align: center;
+}
