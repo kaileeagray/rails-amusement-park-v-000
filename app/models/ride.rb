@@ -14,7 +14,6 @@ class Ride < ActiveRecord::Base
       message += " You are not tall enough to ride the #{attraction.name}." if !tall_enough?
       message
     end
-
   end
 
   def can_ride?
