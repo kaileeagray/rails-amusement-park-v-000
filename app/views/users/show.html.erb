@@ -4,9 +4,9 @@
       <p><strong>ADMIN</strong></p>
       <p><strong>Name:</strong> <%=@user.name%></p>
       <p><%=link_to "New Attraction", new_attraction_path%></p>
-
     <%else%>
       <p><strong>Name:</strong> <%=@user.name%></p>
+      <p><strong>Number of Rides:</strong> <%=@user.num_of_rides%></p>
       <p><strong>Tickets:</strong> <%=@user.tickets%></p>
       <p><strong>Mood:</strong>  <%=@user.mood%></p>
       <p><strong>Height:</strong> <%=@user.height%> inches</p>
