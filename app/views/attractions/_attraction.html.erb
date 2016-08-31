@@ -1,5 +1,14 @@
-
-<td></td>
-<td><strong>Name</strong></td>
-<td><strong>Tickets</strong></td>
-<td><strong>Details</strong></td>
+<tr>
+  <td>
+    <img src="https://hd.unsplash.com/photo-1465996140498-df84be101126" width="100"/>
+  </td>
+  <td>
+    <%=attraction.name%>
+  </td>
+  <td>
+    <%=attraction.tickets%>
+  </td>
+  <td>
+    <%=link_to "Go on #{attraction.name}", attraction_path(attraction)%>
+  </td>
+</tr>
