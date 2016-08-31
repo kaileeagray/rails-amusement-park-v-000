@@ -3,6 +3,8 @@
     <%if @user.admin?%>
       <p><strong>ADMIN</strong></p>
       <p><strong>Name:</strong> <%=@user.name%></p>
+      <p><%=link_to "New Attraction", new_attraction_path%></p>
+
     <%else%>
       <p><strong>Name:</strong> <%=@user.name%></p>
       <p><strong>Tickets:</strong> <%=@user.tickets%></p>

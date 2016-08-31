@@ -11,6 +11,6 @@ Rails.application.routes.draw do
 
   delete '/signout', to: 'sessions#destroy', as: 'signout'
 
-  post '/users/:id', to: 'rides#create', as: '/users/:id'
+  post '/users/:id', to: 'rides#create'
 
 end
